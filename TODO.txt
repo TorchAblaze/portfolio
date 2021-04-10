@@ -1,0 +1,6 @@
+Change all photos to reflect time of year? 
+Headings: change font weight? 
+Padding: Alter padding above/beneath headings? 
+Update background photos
+Make grid css and heading responsive for phones
+Add favicon photo

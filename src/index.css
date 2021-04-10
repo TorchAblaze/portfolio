@@ -308,14 +308,14 @@ section .rain div:nth-child(8) {
   0% {
     opacity: 1;
     top: -10%;
-    transform: translateY(0vh);
+    transform: translateX(0vh);
   }
   75% {
-    transform: translateY(90vh);
+    transform: translateX(-20px);
   }
   100% {
     opacity: 0;
     top: 100%;
-    transform: translateY(90vh);
+    transform: translateX(-20px);
   }
 }
