@@ -53,7 +53,9 @@ Copyright (c) 2021 **_Tiffany Greathead_**
 
 <details>
   <summary markdown="span">React scripts and information, click to expand</summary>
+
 <br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
