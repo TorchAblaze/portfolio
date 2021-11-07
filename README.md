@@ -6,7 +6,7 @@
 
 ## Description
 
-My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests.
+My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests. Backround pictures and animations will change based on the current month/season.
 
 ## Setup/Installation Requirements
 
@@ -44,7 +44,9 @@ _Please reach out through my GitHub account._
 
 MIT License.
 
-All photos including the background picture were taken by Tiffany Greathead
+All photos including the background pictures were taken by Tiffany Greathead
+
+Animations were created with the guidance of [Online Tutorials](https://www.youtube.com/watch?v=FAF6iy2eUyw) and [Codepen](https://codepen.io/arickle/pen/XKjMZY)
 
 Copyright (c) 2021 **_Tiffany Greathead_**
 
