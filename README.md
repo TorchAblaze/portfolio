@@ -1,5 +1,59 @@
+# 🍁 _Tiffany's Portfolio_ 🍁
+
+#### My personal website, last updated on 11/07/21
+
+#### By _**Tiffany Greathead**_
+
+## Description
+
+My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests.
+
+## Setup/Installation Requirements
+
+Software Requirements
+
+1.  Internet browser
+2.  A code editor like VSCode or Atom to view or edit the codebase.
+
+Open via Bash/GitBash:
+
+1.  Clone this repository onto your computer: `https://github.com/TorchAblaze/portfolio.git`
+2.  Navigate into the `portfolio` directory and open in Visual Studio Code or your preferred text editor
+3.  Run `npm install` or `npm i` to install the dependencies
+4.  Run `npm run start` to view the application
+
+#### [See my live website!](https://TorchAblaze.github.io/my-portfolio) (Coming Soon)
+
+## Known Bugs 🐞
+
+_No known bugs at this time_
+
+## Support and contact details
+
+_Please reach out through my GitHub account._
+
+## Technologies Used
+
+- JavaScript
+- React
+- HTML
+- CSS
+- Bootstrap Icons
+
+### License
+
+MIT License.
+
+All photos including the background picture were taken by Tiffany Greathead
+
+Copyright (c) 2021 **_Tiffany Greathead_**
+
+
 # Getting Started with Create React App
 
+<details>
+  <summary markdown="span">React scripts and information, click to expand</summary>
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +122,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
