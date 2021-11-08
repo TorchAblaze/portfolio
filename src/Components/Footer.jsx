@@ -5,7 +5,7 @@ function Footer() {
         All photos including the background picture were taken by Tiffany
         Greathead. See{" "}
         <a
-          href="https://github.com/TorchAblaze/my-portfolio"
+          href="https://github.com/TorchAblaze/portfolio"
           target="_blank"
           rel="noreferrer"
           >the code
