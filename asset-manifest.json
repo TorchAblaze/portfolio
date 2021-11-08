@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a6af331d.chunk.css",
+    "main.js": "/portfolio/static/js/main.bf2b8533.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bf2b8533.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/js/2.08e01f53.chunk.js": "/portfolio/static/js/2.08e01f53.chunk.js",
+    "static/js/2.08e01f53.chunk.js.map": "/portfolio/static/js/2.08e01f53.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.a6af331d.chunk.css.map": "/portfolio/static/css/main.a6af331d.chunk.css.map",
+    "static/js/2.08e01f53.chunk.js.LICENSE.txt": "/portfolio/static/js/2.08e01f53.chunk.js.LICENSE.txt",
+    "static/media/Alien.be3a98e8.jpeg": "/portfolio/static/media/Alien.be3a98e8.jpeg",
+    "static/media/Fall.6891eb4b.jpeg": "/portfolio/static/media/Fall.6891eb4b.jpeg",
+    "static/media/IMG.bf8aea09.jpeg": "/portfolio/static/media/IMG.bf8aea09.jpeg",
+    "static/media/Spring.06cd695c.jpeg": "/portfolio/static/media/Spring.06cd695c.jpeg",
+    "static/media/Summer.1dd7b42f.jpeg": "/portfolio/static/media/Summer.1dd7b42f.jpeg",
+    "static/media/Winter.5f424eb0.jpeg": "/portfolio/static/media/Winter.5f424eb0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/js/2.08e01f53.chunk.js",
+    "static/css/main.a6af331d.chunk.css",
+    "static/js/main.bf2b8533.chunk.js"
+  ]
+}
