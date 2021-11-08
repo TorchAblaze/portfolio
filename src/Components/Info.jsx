@@ -21,10 +21,10 @@ class Info extends React.Component {
               <li>ASP.NET Core</li>
             </div>
             <div>
+              <li>GraphQL</li>
               <li>Python</li>
               <li>HTML / CSS</li>
               <li>API Design</li>
-              <li>DRY Code</li>
             </div>
             <div>
               <li>Git Version Control</li>
