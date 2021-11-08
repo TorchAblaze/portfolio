@@ -40,7 +40,6 @@ class App extends React.Component {
         season: Fall,
       })
     }
-    return console.log(today.getMonth());
   }
 
   render () {
