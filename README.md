@@ -22,7 +22,7 @@ Open via Bash/GitBash:
 3.  Run `npm install` or `npm i` to install the dependencies
 4.  Run `npm run start` to view the application
 
-#### [See my live website!](https://TorchAblaze.github.io/mportfolio) 
+#### [See my live website!](https://TorchAblaze.github.io/portfolio) 
 
 ## Known Bugs 🐞
 
