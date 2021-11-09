@@ -15,13 +15,14 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   /* background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
   position: static;
   min-width: 100%; */
   min-height: 100vh;
+  width: 100vw;
   padding: 2rem;
   z-index: -1;
 }
