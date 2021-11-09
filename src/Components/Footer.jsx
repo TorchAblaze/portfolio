@@ -2,13 +2,12 @@ function Footer() {
   return (
     <footer>
       <p>
-        All photos including the background picture were taken by Tiffany
-        Greathead. See{" "}
+        All photos &copy; Tiffany Greathead.{" "}
         <a
           href="https://github.com/TorchAblaze/portfolio"
           target="_blank"
           rel="noreferrer"
-          >the code
+          >See the code
         </a>
         {" "}for this webpage.
       </p>
