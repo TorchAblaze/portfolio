@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6af331d.chunk.css",
+    "main.css": "/static/css/main.020e66ed.chunk.css",
     "main.js": "/static/js/main.6fface3e.chunk.js",
     "main.js.map": "/static/js/main.6fface3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
@@ -8,7 +8,7 @@
     "static/js/2.08e01f53.chunk.js": "/static/js/2.08e01f53.chunk.js",
     "static/js/2.08e01f53.chunk.js.map": "/static/js/2.08e01f53.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a6af331d.chunk.css.map": "/static/css/main.a6af331d.chunk.css.map",
+    "static/css/main.020e66ed.chunk.css.map": "/static/css/main.020e66ed.chunk.css.map",
     "static/js/2.08e01f53.chunk.js.LICENSE.txt": "/static/js/2.08e01f53.chunk.js.LICENSE.txt",
     "static/media/Alien.be3a98e8.jpeg": "/static/media/Alien.be3a98e8.jpeg",
     "static/media/Fall.6891eb4b.jpeg": "/static/media/Fall.6891eb4b.jpeg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.08e01f53.chunk.js",
-    "static/css/main.a6af331d.chunk.css",
+    "static/css/main.020e66ed.chunk.css",
     "static/js/main.6fface3e.chunk.js"
   ]
 }
