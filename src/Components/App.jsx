@@ -44,7 +44,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div id="background" style={{
+      <div id="background" style={{ width: "100vw",
         backgroundImage: `url(${this.state.season})`,
         // height: "1000px",
         // height: "100%"
