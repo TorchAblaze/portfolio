@@ -11,7 +11,7 @@ function Header() {
         className="image header-image"
       />
       <div className="header-text">
-          <div className="text">
+          <div>
             <h1>Tiffany Greathead</h1>
             <p><em>Developer. Gamer. Pun Enthusiast.</em></p>
             </div>
