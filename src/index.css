@@ -17,10 +17,13 @@ body {
   background-size: cover; */
   /* background-attachment: fixed; */
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-size: cover;
-  padding-bottom: 2rem;
+  position: static;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 2rem;
   z-index: -1;
 }
 
