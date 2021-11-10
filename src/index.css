@@ -103,6 +103,17 @@ a:visited {
   font-weight: lighter;
 }
 
+button {
+  float: right;
+  margin: 1rem;
+  border: 2px solid orange;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button:hover {
+  background-color: rgba(15, 10, 0);  
+}
+
 .box-styles {
   margin: 1% 13% 0% 13%;
   background-color: rgba(61, 61, 61, 0.972);

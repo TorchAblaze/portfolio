@@ -3,6 +3,7 @@ import Winter from '../img/Winter.jpeg';
 import Spring from '../img/Spring.jpeg';
 import Summer from '../img/Summer.jpeg';
 import Fall from '../img/Fall.jpeg';
+import { HourglassSplit } from 'react-bootstrap-icons';
 import Header from './Header';
 import Animation from './Animation';
 import Info from './Info';
@@ -15,6 +16,30 @@ class App extends React.Component {
     this.state = {
       season: "",
     }
+  }
+
+  handleToggle() {
+    if (this.state.season === Winter) {
+      this.setState({
+        season: Spring,
+      })
+    }
+    if (this.state.season === Spring) {
+      this.setState({
+        season: Summer,
+      })
+    }
+    if (this.state.season === Summer) {
+      this.setState({
+        season: Fall,
+      })
+    }
+    if (this.state.season === Fall) {
+      this.setState({
+        season: Winter,
+      })
+    }
+    return this.render();
   }
 
   componentDidMount() {
@@ -46,10 +71,11 @@ class App extends React.Component {
     return (
       <div id="background" style={{
         backgroundImage: `url(${this.state.season})`,
-        // height: "1000px",
-        // height: "100%"
       }} >
         <section>
+          <button onClick={()=> this.handleToggle()}>
+            <HourglassSplit width="15" height="15" color="orange"/>
+          </button>
           <Animation season={this.state.season} />
           <Header/>
           <Info/>
