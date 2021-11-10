@@ -99,7 +99,7 @@ a:visited {
   border-radius: 0 1rem 1rem 0;
   grid-row-start: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   font-weight: lighter;
 }
 
@@ -151,13 +151,14 @@ footer {
 .box-styles ul:first-of-type {
   grid-row-start: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
 }
 
 .lists {
   grid-row-start: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 /* animation */
