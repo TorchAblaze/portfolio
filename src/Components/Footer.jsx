@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p>
-        All photos &copy; Tiffany Greathead.{" "}
+        All photos &copy; 2020-2021 Tiffany Greathead.{" "}
         <a
           href="https://github.com/TorchAblaze/portfolio"
           target="_blank"
