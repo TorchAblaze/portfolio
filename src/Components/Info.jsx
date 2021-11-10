@@ -7,7 +7,7 @@ class Info extends React.Component {
       <>
         <div className="box-styles">
           <h2>Skills</h2>
-          <ul className="skills">
+          <ul>
             <div>
               <li>JavaScript</li>
               <li>Node.js</li>

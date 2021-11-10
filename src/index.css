@@ -145,7 +145,7 @@ footer {
   position: relative;
 }
 
-.skills {
+.box-styles ul:first-of-type {
   grid-row-start: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
