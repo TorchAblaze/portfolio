@@ -52,15 +52,16 @@ class Info extends React.Component {
               <ul className="lists">
                 <div>
                   <li>CSS</li>
+                  <li>HTML</li>
                   <li>Node</li>
+                </div>
+                <div>
                   <li>JavaScript</li>
+                  <li>React</li>
+                  <li>MySQL</li>
                 </div>
                 <div>
                   <li>C#</li>
-                  <li>MySQL</li>
-                  <li>React</li>
-                </div>
-                <div>
                   <li>ASP.NET</li>
                   <li>Entity Framework Core</li>
                 </div>
@@ -110,12 +111,12 @@ class Info extends React.Component {
                   <li>HTML</li>
                 </div>
                 <div>
+                  <li>Bootstrap</li>
                   <li>Node</li>
-                  <li>Javascript</li>
                 </div>
                 <div>
+                  <li>Javascript</li>
                   <li>jQuery</li>
-                  <li>Bootstrap</li>
                 </div>
               </ul>
             <li>
@@ -132,14 +133,15 @@ class Info extends React.Component {
             </li>
               <ul className="lists">
                 <div>
-                  <li>C#</li>
-                  <li>ASP.NET</li>
-                </div>
-                <div>
-                  <li>MySQL</li>
+                  <li>CSS</li>
                   <li>Bootstrap</li>
                 </div>
                 <div>
+                  <li>MySQL</li>
+                  <li>C#</li>
+                </div>
+                <div>
+                  <li>ASP.NET</li>
                   <li>Entity Framework Core</li>
                 </div>
               </ul>
