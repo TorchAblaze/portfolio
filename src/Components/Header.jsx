@@ -2,7 +2,7 @@ import React from 'react';
 import IMG from '../img/IMG.jpeg';
 import { Github, Linkedin, FileWord } from 'react-bootstrap-icons';
 
-function Header() {
+function Header(props) {
   return (
     <div className="heading">
       <img
@@ -20,6 +20,8 @@ function Header() {
               href="https://www.linkedin.com/in/tiffanygreathead/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn Profile"
+              className={props.classColor} 
             >
               <Linkedin width="45" height="45"/>
             </a>
@@ -27,6 +29,8 @@ function Header() {
               href="https://github.com/TorchAblaze"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub Profile"
+              className={props.classColor} 
             >
               <Github width="45" height="45"/>
             </a>
@@ -34,6 +38,8 @@ function Header() {
               href="https://docs.google.com/document/d/1dFPU7tC6WPxnBOGAbj-2Uu14F2y4eOrwPlQYbtGYB7Y/edit"
               target="_blank"
               rel="noreferrer"
+              aria-label="Resume"
+              className={props.classColor} 
             >
               <FileWord width="45" height="45"/>
             </a>
