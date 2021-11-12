@@ -15,6 +15,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       season: "",
+      classColor: "",
     }
   }
 
@@ -22,21 +23,25 @@ class App extends React.Component {
     if (this.state.season === Winter) {
       this.setState({
         season: Spring,
+        classColor: "palegreen",
       })
     }
     if (this.state.season === Spring) {
       this.setState({
         season: Summer,
+        classColor: "orange",
       })
     }
     if (this.state.season === Summer) {
       this.setState({
         season: Fall,
+        classColor: "red",
       })
     }
     if (this.state.season === Fall) {
       this.setState({
         season: Winter,
+        classColor: "white",
       })
     }
     return this.render();
@@ -48,36 +53,42 @@ class App extends React.Component {
     if (today.getMonth() === 11 || today.getMonth() === 0 || today.getMonth() === 1) {
       this.setState({
         season: Winter,
+        classColor: "white",
       });
     }
     if (today.getMonth() === 2 || today.getMonth() === 3 || today.getMonth() === 4) {
       this.setState({
         season: Spring,
+        classColor: "palegreen",
       });
     }
     if (today.getMonth() === 5 || today.getMonth() === 6 || today.getMonth() === 7) {
       this.setState({
         season: Summer,
+        classColor: "orange",
       })
     }
     if (today.getMonth() === 8 || today.getMonth() === 9 || today.getMonth() === 10) {
       this.setState({
         season: Fall,
+        classColor: "red",
       })
     }
   }
 
   render () {
+    const { season, classColor } = this.state;
+
     return (
       <div id="background" style={{
-        backgroundImage: `url(${this.state.season})`,
+        backgroundImage: `url(${season})`,
       }} >
-        <section>
-          <button onClick={()=> this.handleToggle()}>
-            <HourglassSplit width="15" height="15" color="orange"/>
+        <section className={classColor}>
+          <button onClick={()=> this.handleToggle()} className={classColor} aria-label="Change seasonal theme">
+            <HourglassSplit width="20" height="20" color={classColor}/>
           </button>
-          <Animation season={this.state.season} />
-          <Header/>
+          <Animation season={season} />
+          <Header classColor={classColor} />
           <Info/>
           <Footer/>
         </section>
