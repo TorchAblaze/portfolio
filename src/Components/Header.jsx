@@ -21,27 +21,31 @@ function Header(props) {
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn Profile"
-              className={props.classColor} 
+              title="LinkedIn"
+              className={`${props.classColor} text-hover`} 
             >
               <Linkedin width="45" height="45"/>
+              <span className="icon-text">LinkedIn</span>
             </a>
             <a 
               href="https://github.com/TorchAblaze"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub Profile"
-              className={props.classColor} 
+              className={`${props.classColor} text-hover`} 
             >
               <Github width="45" height="45"/>
+              <span className="icon-text">GitHub</span>
             </a>
             <a
-              href="https://docs.google.com/document/d/1dFPU7tC6WPxnBOGAbj-2Uu14F2y4eOrwPlQYbtGYB7Y/edit"
+              href="https://docs.google.com/document/d/1dFPU7tC6WPxnBOGAbj-2Uu14F2y4eOrwPlQYbtGYB7Y"
               target="_blank"
               rel="noreferrer"
               aria-label="Resume"
-              className={props.classColor} 
+              className={`${props.classColor} text-hover`}
             >
               <FileWord width="45" height="45"/>
+              <span className="icon-text">Resume</span>
             </a>
           </div>
       </div>
