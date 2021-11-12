@@ -114,6 +114,7 @@ class Info extends React.Component {
                   <li>Javascript</li>
                 </div>
                 <div>
+                  <li>jQuery</li>
                   <li>Bootstrap</li>
                 </div>
               </ul>
