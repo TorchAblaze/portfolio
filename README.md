@@ -6,7 +6,7 @@
 
 ## Description
 
-My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests. Backround pictures and animations will change based on the current month/season.
+My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests. Background pictures and animations will change based on the current month/season.
 
 ## Setup/Installation Requirements
 
