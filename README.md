@@ -1,14 +1,14 @@
 # 🍁 _Tiffany's Portfolio_ 🍁
 
-#### My personal website, last updated on 11/07/21
+#### My personal website, last updated on 11/17/21
 
 #### By _**Tiffany Greathead**_
 
-## Description
+## ❄️ Description ❄️
 
-My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests. Background pictures and animations will change based on the current month/season.
+My personal portfolio. This webpage contains links to GitHub projects I've worked on, as well as links to the GitHub profiles of classmates who contributed towards them. It also includes some general information about my previous and current work experience, education and interests. Background pictures and animations will change based on the current month/season. Click the hour glass button in the top right corner to view the different seasonal themes.
 
-## Setup/Installation Requirements
+## 🌈 Setup/Installation Requirements 💧
 
 Software Requirements
 
@@ -28,11 +28,11 @@ Open via Bash/GitBash:
 
 _No known bugs at this time_
 
-## Support and contact details
+## 🌸 Support and contact details 🏵
 
 _Please reach out through my GitHub account._
 
-## Technologies Used
+## 🖥 Technologies Used ⌨️
 
 - JavaScript
 - React
