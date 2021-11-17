@@ -432,7 +432,6 @@ section .rain div:nth-child(8) {
   .heading {
     flex-direction: column;
     margin: auto;
-    /* display: contents; */
     width: 100%;
   }
   .header-image {
@@ -443,13 +442,14 @@ section .rain div:nth-child(8) {
   .header-text {
     margin-top: -5rem;
     margin-left: 0%;
-    padding: 4rem 1rem 1rem 1rem;
+    padding-top: 4rem;
     border-radius: 10px;
     box-sizing: content-box;
   }
-  /* .links a {
-    padding-right: 1%;
-  } */
+  .links a {
+    padding: .5% 7%;
+    margin: auto;
+  }
   .box-styles {
     margin: auto;
   }
