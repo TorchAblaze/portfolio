@@ -12,7 +12,7 @@ function Footer() {
         {" "}for this webpage.
       </p> 
       <p>
-        Theme changes based on the time of year - click the hour glass on the top right to change the theme manually.
+        Theme changes based on the time of year - click the hour glass on the top right to change the season manually.
       </p>
     </footer>
   )
