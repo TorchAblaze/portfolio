@@ -30,6 +30,7 @@ h1 {
   font-weight: 349;
   font-size: 2.5rem;
   margin: 1rem auto;
+  padding-bottom: .5rem;
 }
 
 .heading {
@@ -82,7 +83,7 @@ h1 {
 }
 
 .links {
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem 3.5rem 1rem;
 }
 
 .links a {
@@ -99,9 +100,10 @@ h1 {
   text-align: center;
   border-radius: 6px;
   position: absolute;
+  padding: 5px 0;
   z-index: 1;
   top: 100%;
-  left: 20%;
+  left: 1.5rem;
   margin-left: -60px;
 }
 
@@ -195,18 +197,22 @@ button {
 
 button.white {
   border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.palegreen {
   border: 2px solid palegreen;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.orange {
   border: 2px solid orange;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.red {
   border: 2px solid red;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
