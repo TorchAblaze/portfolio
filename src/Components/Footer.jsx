@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p>
-        All photos &copy; 2020-2021 Tiffany Greathead.{" "} 
+        Theme changes based on the time of year - click the hour glass on the top right to change the season manually.{" "} 
         <a
           href="https://github.com/TorchAblaze/portfolio"
           target="_blank"
@@ -12,7 +12,7 @@ function Footer() {
         {" "}for this webpage.
       </p> 
       <p>
-        Theme changes based on the time of year - click the hour glass on the top right to change the season manually.
+        All photos &copy; 2020-2021 Tiffany Greathead
       </p>
     </footer>
   )
