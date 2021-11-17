@@ -15,31 +15,96 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  /* background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: static;
-  min-width: 100%; */
   min-height: 100vh;
   width: 100vw;
   padding-bottom: 2rem;
   z-index: -1;
 }
 
+/* Header */
 h1 {
   font-weight: 349;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-ol li {
-  margin-top: 1rem;
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin: 0% 13%;
+  max-width: 100%;
 }
 
-ul li {
-  margin-top: 0;
+/* .header-image {
+  margin: 3%;
+  border-radius: 50%;
+  width: 24%;
+  height: 24%;
+  min-width: 5rem;
+  min-height: 5rem;
+  z-index: 100;
+} */
+
+.header-image {
+  margin: 3%;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  min-width: 5rem;
+  min-height: 5rem;
+  z-index: 100;
+  overflow: hidden;
 }
 
+.header-text {
+  /* margin: 3rem 3rem 3rem -8rem;
+  background-color: rgba(61, 61, 61);
+  width: 100%;
+  z-index: 1;
+  padding: 0.75em 0 0.75rem 9rem;
+  border-radius: 0 1rem 1rem 0; */
+  margin: 5% 5% 5% -8%;
+  background-color: rgba(61, 61, 61);
+  width: 100%;
+  z-index: 1;
+  padding: 0% 0% 0% 9%;
+  border-radius: 0 1rem 1rem 0;
+  grid-row-start: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  font-weight: lighter;
+}
+
+.links {
+  padding: 3rem 1rem;
+}
+
+.links a {
+  padding-right: 16%;
+}
+
+.text-hover {
+  position: relative;
+}
+
+.text-hover .icon-text {
+  visibility: hidden;
+  width: 120px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 20%;
+  margin-left: -60px;
+}
+
+.text-hover:hover .icon-text {
+  visibility: visible;
+}
+
+/* Seasons */
 .red a {
   color: rgb(255, 143, 79);
   text-decoration: none;
@@ -100,53 +165,6 @@ ul li {
   color: rgb(255, 196, 0);
 }
 
-.heading {
-  display: flex;
-  flex-direction: row;
-  margin: 0% 13%;
-  max-width: 100%;
-}
-
-/* .header-image {
-  margin: 3%;
-  border-radius: 50%;
-  width: 24%;
-  height: 24%;
-  min-width: 5rem;
-  min-height: 5rem;
-  z-index: 100;
-} */
-
-.header-image {
-  margin: 3%;
-  border-radius: 50%;
-  width: 20%;
-  height: 20%;
-  min-width: 5rem;
-  min-height: 5rem;
-  z-index: 100;
-  overflow: hidden;
-}
-
-.header-text {
-  /* margin: 3rem 3rem 3rem -8rem;
-  background-color: rgba(61, 61, 61);
-  width: 100%;
-  z-index: 1;
-  padding: 0.75em 0 0.75rem 9rem;
-  border-radius: 0 1rem 1rem 0; */
-  margin: 5% 5% 5% -8%;
-  background-color: rgba(61, 61, 61);
-  width: 100%;
-  z-index: 1;
-  padding: 0% 0% 0% 9%;
-  border-radius: 0 1rem 1rem 0;
-  grid-row-start: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  font-weight: lighter;
-}
-
 .white {
   color: rgb(228, 224, 224);
 }
@@ -190,6 +208,7 @@ button:hover {
   background-color: rgba(15, 10, 0);  
 }
 
+/* Body */
 .box-styles {
   margin: 1% 13% 0% 13%;
   background-color: rgba(61, 61, 61, 0.972);
@@ -197,6 +216,14 @@ button:hover {
   position: relative;
   border-radius: 10px;
   z-index: 100;
+}
+
+ol li {
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-top: 0;
 }
 
 .alien {
@@ -212,29 +239,6 @@ button:hover {
   z-index: 200;
 }
 
-.links {
-  padding: 3rem 1rem;
-}
-
-.links a {
-  padding-right: 16%;
-}
-
-.box-styles p:last-of-type {
-  margin-bottom: 5rem;
-}
-
-footer {
-  background-color: rgb(61, 61, 61);
-  font-size: medium;
-  border-radius: 1rem;
-  text-align: center;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  margin: 0% 13% 3% 13%;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
 .box-styles ul:first-of-type {
   grid-row-start: auto;
   display: grid;
@@ -248,15 +252,23 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-/* animation */
-/* section {
-  /* position: relative;
-  width: 100%;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center; 
-} */
+.box-styles p:last-of-type {
+  margin-bottom: 5rem;
+}
 
+/* Footer */
+footer {
+  background-color: rgb(61, 61, 61);
+  font-size: medium;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0% 13% 3% 13%;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+/* animation */
 section .set, section .rain {
   position: absolute;
   width: 100%;
@@ -408,25 +420,4 @@ section .rain div:nth-child(8) {
     top: 110%;
     transform: translateX(-20px);
   }
-}
-
-.text-hover {
-  position: relative;
-}
-
-.text-hover .icon-text {
-  visibility: hidden;
-  width: 120px;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 20%;
-  margin-left: -60px;
-}
-
-.text-hover:hover .icon-text {
-  visibility: visible;
 }
