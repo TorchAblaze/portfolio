@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(61, 61, 61, 0.972);
@@ -218,10 +222,6 @@ button:hover {
   z-index: 100;
 }
 
-ol li {
-  margin-top: 1rem;
-}
-
 ul li {
   margin-top: 0;
 }
@@ -250,6 +250,24 @@ ul li {
   grid-row-start: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+ol.lists {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  list-style-position: inside;
+  margin: 1% 10% 0% 10%;
+  padding: .5rem 2rem;
+  position: relative;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+ol.lists > * {
+  background-color: rgba(61, 61, 61, 0.972);
+  padding: 1rem 2rem;
+  margin: 0% 2% 3% 2%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
 }
 
 .box-styles p:last-of-type {

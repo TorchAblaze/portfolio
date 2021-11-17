@@ -35,9 +35,9 @@ class Info extends React.Component {
           </ul>
         </div>
 
-        <div className="box-styles">
-          <h2>Projects</h2>
-          <ol>
+        <div>
+          <h2 className="box-styles">Projects</h2>
+          <ol className="lists">
             <li>
               <a
                 href="https://github.com/TorchAblaze/capstone"
@@ -48,7 +48,6 @@ class Info extends React.Component {
               An application that allows users to store photos, travel
               information, and track their favorite places to visit. This project
               is still under construction. Built with:
-            </li>
               <ul className="lists">
                 <div>
                   <li>CSS</li>
@@ -66,6 +65,7 @@ class Info extends React.Component {
                   <li>Entity Framework Core</li>
                 </div>
               </ul>
+            </li>
             <li>
               <a
                 href="https://github.com/TorchAblaze/take-a-hike"
@@ -104,7 +104,6 @@ class Info extends React.Component {
                 >Brandon Magofna
               </a>
               . Built with:
-            </li>
               <ul className="lists">
                 <div>
                   <li>CSS</li>
@@ -119,6 +118,7 @@ class Info extends React.Component {
                   <li>jQuery</li>
                 </div>
               </ul>
+            </li>
             <li>
               <a
                 href="https://github.com/TorchAblaze/Factory.Solution"
@@ -130,7 +130,6 @@ class Info extends React.Component {
               Engineers can be added to an employee roster and assigned to a
               machine in need of repairs via the use of many to many
               relationships. Built with:
-            </li>
               <ul className="lists">
                 <div>
                   <li>CSS</li>
@@ -145,37 +144,64 @@ class Info extends React.Component {
                   <li>Entity Framework Core</li>
                 </div>
               </ul>
+            </li>
+            <li>
+              <a
+                href="https://github.com/TorchAblaze/my-spacestagram"
+                target="_blank"
+                rel="noreferrer"
+                >SPACESTAGRAM:
+              </a>
+              {" "}A web application that uploads pictures using an API call to NASA's image library. Users can search keywords to view revelant phtotos and click on the "like" buttons to like their favorite photos. Built with:
+              <ul className="lists">
+                <div>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </div>
+                <div>
+                  <li>Node</li>
+                  <li>JavaScript</li>
+                </div>
+                <div>
+                  <li>React</li>
+                </div>
+              </ul>
+            </li>
           </ol>
         </div>
 
-        <div className="box-styles">
-          <h2>Experience</h2>
-          <p>
-            I'm a junior QA engineer at{" "}
-            <a href="https://rockpapercoin.com/" target="_blank" rel="noreferrer"
-              >Rock Paper Coin
-            </a>
-            . My programming journey started in 2019 via{" "}
-            <a href="https://teamtreehouse.com/" target="_blank" rel="noreferrer"
-              >Treehouse's
-            </a>
-            {" "}online courses for Python and JavaScript. I've recently graduated from{" "}
-            <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"
-              >Epicodus' 
-            </a>
-            {" "}full-time full-stack, 27 week program where I strenghtened my JavaScript skills and learned C# and React. I attended Norwich University and have a
-            bachelor's degree in Psychology. Before applying to Epicodus, I worked
-            four years as a federal agent.
-          </p>
-          <h2>Interests</h2>
-          <p>
-            I enjoy gaming and watching movies. Some of my favoirte games are
-            Horizon Zero Dawn, Astroneer, Pokemon Shield and most Legend of Zelda
-            games. I love traveling/exploring new places, hiking, puns (they are
-            intended) and coffee shops. Recently, I've been dedicating most of my
-            time to strengthening my programming skills, but lucky for me, I
-            really like coding, too!
-          </p>
+        <div className="box-styles lists">
+          <div>
+            <h2>Experience</h2>
+            <p>
+              I'm a junior QA engineer at{" "}
+              <a href="https://rockpapercoin.com/" target="_blank" rel="noreferrer"
+                >Rock Paper Coin
+              </a>
+              . My programming journey started in 2019 via{" "}
+              <a href="https://teamtreehouse.com/" target="_blank" rel="noreferrer"
+                >Treehouse's
+              </a>
+              {" "}online courses for Python and JavaScript. I've recently graduated from{" "}
+              <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"
+                >Epicodus' 
+              </a>
+              {" "}full-time full-stack, 27 week program where I strenghtened my JavaScript skills and learned C# and React. I attended Norwich University and have a
+              bachelor's degree in Psychology. Before applying to Epicodus, I worked
+              four years as a federal agent.
+            </p>
+          </div>
+          <div>
+            <h2>Interests</h2>
+            <p>
+              I enjoy gaming and watching movies. Some of my favoirte games are
+              Horizon Zero Dawn, Astroneer, Pokemon Shield and most Legend of Zelda
+              games. I love traveling/exploring new places, hiking, puns (they are
+              intended) and coffee shops. Recently, I've been dedicating most of my
+              time to strengthening my programming skills, but lucky for me, I
+              really like coding, too!
+            </p>
+          </div>
         </div>
         <img className="alien" src={Alien} alt="A stuffed alien" />
       </>
