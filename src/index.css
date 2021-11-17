@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(61, 61, 61, 0.972);
@@ -25,7 +29,7 @@ body {
 h1 {
   font-weight: 349;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 }
 
 .heading {
@@ -46,12 +50,14 @@ h1 {
 } */
 
 .header-image {
-  margin: 3%;
+  margin: 3% 3% 0% 3%;
   border-radius: 50%;
   width: 20%;
   height: 20%;
-  min-width: 5rem;
-  min-height: 5rem;
+  max-width: 15rem;
+  max-width: 15rem;
+  min-width: 12rem;
+  min-height: 12rem;
   z-index: 100;
   overflow: hidden;
 }
@@ -63,11 +69,11 @@ h1 {
   z-index: 1;
   padding: 0.75em 0 0.75rem 9rem;
   border-radius: 0 1rem 1rem 0; */
-  margin: 5% 5% 5% -8%;
+  margin: 5.5% 5% 5% -8%;
   background-color: rgba(61, 61, 61);
   width: 100%;
   z-index: 1;
-  padding: 0% 0% 0% 9%;
+  padding: 1% 0% 0% 9%;
   border-radius: 0 1rem 1rem 0;
   grid-row-start: auto;
   display: grid;
@@ -92,7 +98,6 @@ h1 {
   width: 120px;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: 100%;
@@ -419,5 +424,33 @@ section .rain div:nth-child(8) {
     opacity: 0;
     top: 110%;
     transform: translateX(-20px);
+  }
+}
+
+/* mobile */
+@media (max-width: 800px) {
+  .heading {
+    flex-direction: column;
+    margin: auto;
+    /* display: contents; */
+    width: 100%;
+  }
+  .header-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .header-text {
+    margin-top: -5rem;
+    margin-left: 0%;
+    padding: 4rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  /* .links a {
+    padding-right: 1%;
+  } */
+  .box-styles {
+    margin: auto;
   }
 }
