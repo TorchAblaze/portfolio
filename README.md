@@ -32,7 +32,7 @@ _No known bugs at this time_
 
 _Please reach out through my GitHub account._
 
-## 🖥 Technologies Used ⌨️
+## ⏳ Technologies Used ⌛️
 
 - JavaScript
 - React
