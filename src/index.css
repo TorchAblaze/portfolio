@@ -457,6 +457,6 @@ section .rain div:nth-child(8) {
     margin: auto;
   }
   .box-styles {
-    margin: auto;
+    margin: 3rem auto;
   }
 }
