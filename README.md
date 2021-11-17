@@ -24,7 +24,7 @@ Open via Bash/GitBash:
 
 #### [See my live website!](https://TorchAblaze.github.io/portfolio) 
 
-## Known Bugs 🐞
+## 🐞 Known Bugs 🐞
 
 _No known bugs at this time_
 
