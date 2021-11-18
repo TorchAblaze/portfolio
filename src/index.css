@@ -480,14 +480,19 @@ section .rain div:nth-child(8) {
   }
   .box-styles {
     margin: 3rem auto;
+    overflow: auto;
+    text-overflow: ellipsis;
   }
   ol.lists > * {
     padding-right: 1%;
     flex: auto;
     /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
   }
-  .box-styles ul {
-    overflow: auto;
+  .box-styles p:last-of-type {
+    margin-bottom: 0;
+  }
+  .box-styles div:last-child p {
+    margin-bottom: 6rem;
   }
   .alien {
     margin-top: -9rem;
