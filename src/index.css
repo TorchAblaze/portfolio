@@ -236,9 +236,8 @@ ul li {
 .alien {
   width: 12rem;
   border-radius: 50%;
-  margin-top: -5rem;
+  margin-top: -6rem;
   margin-bottom: 3rem;
-  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -287,7 +286,7 @@ ol.lists > * {
 }
 
 .box-styles p:last-of-type {
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 /* Footer */
@@ -460,8 +459,8 @@ section .rain div:nth-child(8) {
 @media (max-width: 800px) {
   .heading {
     flex-direction: column;
-    margin: auto;
-    width: 100%;
+    margin: 0;
+    width: 92%;
   }
   .header-image {
     margin-left: auto;
@@ -484,8 +483,13 @@ section .rain div:nth-child(8) {
   }
   ol.lists > * {
     padding-right: 1%;
-    flex:auto;
-    max-width: 80vw;
+    flex: auto;
     /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  }
+  .box-styles ul {
+    overflow: auto;
+  }
+  .alien {
+    margin-top: -9rem;
   }
 }
