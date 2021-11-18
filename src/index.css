@@ -459,7 +459,7 @@ section .rain div:nth-child(8) {
     margin: 3rem auto;
   }
   .box-styles ul {
-    overflow-wrap: break-word;
+    overflow: auto;
   }
   .alien {
     margin-top: -9rem;
