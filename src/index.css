@@ -259,22 +259,31 @@ ul li {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.box-styles .lists {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 ol.lists {
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(max(400px, 30vw), 2fr));
   list-style-position: inside;
-  margin: 1% 10% 0% 10%;
-  padding: .5rem 2rem;
-  position: relative;
+  /* margin: 1% 10% 0% 10%; */
+  padding: 0rem 2rem;
+  /* position: relative; */
   border-radius: 10px;
   z-index: 100;
 }
 
 ol.lists > * {
   background-color: rgba(61, 61, 61, 0.972);
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   margin: 0% 2% 3% 2%;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  /* box-shadow: 0 4px 8px 0 rgb(0, 0, 0); */
+}
+
+.lists p:first-of-type {
+  padding-right: 1rem;
 }
 
 .box-styles p:last-of-type {
@@ -472,5 +481,11 @@ section .rain div:nth-child(8) {
   }
   .box-styles {
     margin: 3rem auto;
+  }
+  ol.lists > * {
+    padding-right: 1%;
+    flex:auto;
+    max-width: 80vw;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
   }
 }
