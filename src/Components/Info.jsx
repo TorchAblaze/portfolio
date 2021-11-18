@@ -35,8 +35,8 @@ class Info extends React.Component {
           </ul>
         </div>
 
-        <div>
-          <h2 className="box-styles">Projects</h2>
+        <div className="box-styles">
+          <h2>Projects</h2>
           <ol className="lists">
             <li>
               <a
@@ -53,13 +53,11 @@ class Info extends React.Component {
                   <li>CSS</li>
                   <li>HTML</li>
                   <li>Node</li>
-                </div>
-                <div>
                   <li>JavaScript</li>
                   <li>React</li>
-                  <li>MySQL</li>
                 </div>
                 <div>
+                  <li>MySQL</li>
                   <li>C#</li>
                   <li>ASP.NET</li>
                   <li>Entity Framework Core</li>
@@ -108,12 +106,10 @@ class Info extends React.Component {
                 <div>
                   <li>CSS</li>
                   <li>HTML</li>
-                </div>
-                <div>
                   <li>Bootstrap</li>
-                  <li>Node</li>
                 </div>
                 <div>
+                  <li>Node</li>
                   <li>Javascript</li>
                   <li>jQuery</li>
                 </div>
@@ -134,12 +130,10 @@ class Info extends React.Component {
                 <div>
                   <li>CSS</li>
                   <li>Bootstrap</li>
-                </div>
-                <div>
                   <li>MySQL</li>
-                  <li>C#</li>
                 </div>
                 <div>
+                  <li>C#</li>
                   <li>ASP.NET</li>
                   <li>Entity Framework Core</li>
                 </div>
@@ -155,15 +149,13 @@ class Info extends React.Component {
               {" "}A web application that uploads pictures using an API call to NASA's image library. Users can search keywords to view revelant phtotos and click on the "like" buttons to like their favorite photos. Built with:
               <ul className="lists">
                 <div>
-                  <li>CSS</li>
-                  <li>HTML</li>
-                </div>
-                <div>
                   <li>Node</li>
                   <li>JavaScript</li>
+                  <li>React</li>
                 </div>
                 <div>
-                  <li>React</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
                 </div>
               </ul>
             </li>
@@ -172,7 +164,7 @@ class Info extends React.Component {
 
         <div className="box-styles lists">
           <div>
-            <h2>Experience</h2>
+            <h3>Experience</h3>
             <p>
               I'm a junior QA engineer at{" "}
               <a href="https://rockpapercoin.com/" target="_blank" rel="noreferrer"
@@ -192,7 +184,7 @@ class Info extends React.Component {
             </p>
           </div>
           <div>
-            <h2>Interests</h2>
+            <h3>Interests</h3>
             <p>
               I enjoy gaming and watching movies. Some of my favoirte games are
               Horizon Zero Dawn, Astroneer, Pokemon Shield and most Legend of Zelda
