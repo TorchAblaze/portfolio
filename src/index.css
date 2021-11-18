@@ -29,7 +29,8 @@ body {
 h1 {
   font-weight: 349;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
+  padding-bottom: .5rem;
 }
 
 .heading {
@@ -50,12 +51,14 @@ h1 {
 } */
 
 .header-image {
-  margin: 3%;
+  margin: 3% 3% 0% 3%;
   border-radius: 50%;
   width: 20%;
   height: 20%;
-  min-width: 5rem;
-  min-height: 5rem;
+  max-width: 15rem;
+  max-width: 15rem;
+  min-width: 12rem;
+  min-height: 12rem;
   z-index: 100;
   overflow: hidden;
 }
@@ -67,11 +70,11 @@ h1 {
   z-index: 1;
   padding: 0.75em 0 0.75rem 9rem;
   border-radius: 0 1rem 1rem 0; */
-  margin: 5% 5% 5% -8%;
+  margin: 5.5% 5% 5% -8%;
   background-color: rgba(61, 61, 61);
   width: 100%;
   z-index: 1;
-  padding: 0% 0% 0% 9%;
+  padding: 1% 0% 0% 9%;
   border-radius: 0 1rem 1rem 0;
   grid-row-start: auto;
   display: grid;
@@ -80,7 +83,7 @@ h1 {
 }
 
 .links {
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem 3.5rem 1rem;
 }
 
 .links a {
@@ -96,11 +99,11 @@ h1 {
   width: 120px;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
   position: absolute;
+  padding: 5px 0;
   z-index: 1;
   top: 100%;
-  left: 20%;
+  left: 1.5rem;
   margin-left: -60px;
 }
 
@@ -136,7 +139,7 @@ h1 {
 }
 
 .white a:visited {
-  color: rgb(49, 96, 251);
+  color: rgb(119, 150, 251);
 }
 
 .palegreen a {
@@ -194,18 +197,22 @@ button {
 
 button.white {
   border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.palegreen {
   border: 2px solid palegreen;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.orange {
   border: 2px solid orange;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button.red {
   border: 2px solid red;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
@@ -437,5 +444,33 @@ section .rain div:nth-child(8) {
     opacity: 0;
     top: 110%;
     transform: translateX(-20px);
+  }
+}
+
+/* mobile */
+@media (max-width: 800px) {
+  .heading {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .header-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .header-text {
+    margin-top: -5rem;
+    margin-left: 0%;
+    padding-top: 4rem;
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+  .links a {
+    padding: .5% 7%;
+    margin: auto;
+  }
+  .box-styles {
+    margin: 3rem auto;
   }
 }
