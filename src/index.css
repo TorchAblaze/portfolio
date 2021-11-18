@@ -437,8 +437,8 @@ section .rain div:nth-child(8) {
 @media (max-width: 800px) {
   .heading {
     flex-direction: column;
-    margin: auto;
-    width: 100%;
+    margin: 0;
+    width: 92%;
   }
   .header-image {
     margin-left: auto;
