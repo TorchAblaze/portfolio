@@ -6,7 +6,9 @@ import Fall from '../img/Fall.jpeg';
 import { HourglassSplit } from 'react-bootstrap-icons';
 import Header from './Header';
 import Animation from './Animation';
-import Info from './Info';
+import Skills from './Skills';
+import Projects from './Projects';
+import About from './About';
 import Footer from './Footer';
 import '../index.css';
 
@@ -85,11 +87,13 @@ class App extends React.Component {
       }} >
         <section className={classColor}>
           <button onClick={()=> this.handleToggle()} className={classColor} aria-label="Change seasonal theme">
-            <HourglassSplit width="20" height="20" color={classColor}/>
+            <HourglassSplit width="20" height="20" color={classColor} />
           </button>
           <Animation season={season} />
           <Header classColor={classColor} />
-          <Info/>
+          <Skills/>
+          <Projects/>
+          <About/>
           <Footer/>
         </section>
       </div>
