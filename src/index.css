@@ -263,19 +263,20 @@ ul li {
   padding-right: 0;
 }
 
+.projects {
+  padding-bottom: 0;
+}
+
 ol.lists {
-  grid-template-columns: repeat(auto-fit, minmax(max(400px, 30vw), 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(max(300px, 15vw), 3fr));
   list-style-position: inside;
-  /* margin: 1% 10% 0% 10%; */
   padding: 0rem 2rem;
-  /* position: relative; */
   border-radius: 10px;
   z-index: 100;
 }
 
 ol.lists > * {
-  background-color: rgba(61, 61, 61, 0.972);
-  /* padding: 1rem 2rem; */
+  padding-bottom: 1rem;
   margin: 0% 2% 3% 2%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   /* box-shadow: 0 4px 8px 0 rgb(0, 0, 0); */
