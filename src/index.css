@@ -128,7 +128,7 @@ h1 {
 }
 
 .white a {
-  color: rgb(137, 215, 251);
+  color: rgb(27 222 255);
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ h1 {
 }
 
 .white a:visited {
-  color: rgb(119, 150, 251);
+  color: rgb(137, 215, 251);
 }
 
 .palegreen a {
@@ -173,7 +173,7 @@ h1 {
 }
 
 .white {
-  color: rgb(228, 224, 224);
+  color: rgb(219 255 250);
 }
 
 .palegreen {
