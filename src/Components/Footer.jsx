@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p>
-        Theme changes based on the time of year - click the hour glass on the top right to change the season manually.{" "} 
+        Theme changes based on the time of year - click the hourglass on the top right to change the season manually.{" "} 
         <a
           href="https://github.com/TorchAblaze/portfolio"
           target="_blank"

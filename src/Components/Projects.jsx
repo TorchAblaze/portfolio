@@ -77,7 +77,7 @@ function Projects() {
             </div>
             <div>
               <li>Node</li>
-              <li>Javascript</li>
+              <li>JavaScript</li>
               <li>jQuery</li>
             </div>
           </ul>
