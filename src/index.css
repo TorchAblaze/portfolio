@@ -223,7 +223,7 @@ button:hover {
 .box-styles {
   margin: 1% 13% 0% 13%;
   background-color: rgba(61, 61, 61, 0.972);
-  padding: .5rem 2rem;
+  padding: .1rem 2rem .5rem 2rem;
   position: relative;
   border-radius: 10px;
   z-index: 100;
