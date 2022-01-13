@@ -24,7 +24,7 @@ function Header(props) {
               title="LinkedIn"
               className={`${props.classColor} text-hover`} 
             >
-              <Linkedin width="45" height="45"/>
+              <Linkedin width="36" height="36 "/>
               <span className="icon-text">LinkedIn</span>
             </a>
             <a 
@@ -34,7 +34,7 @@ function Header(props) {
               aria-label="GitHub Profile"
               className={`${props.classColor} text-hover`} 
             >
-              <Github width="45" height="45"/>
+              <Github width="36" height="36"/>
               <span className="icon-text">GitHub</span>
             </a>
             <a
@@ -44,7 +44,7 @@ function Header(props) {
               aria-label="Resume"
               className={`${props.classColor} text-hover`}
             >
-              <FileWord width="45" height="45"/>
+              <FileWord width="36" height="36"/>
               <span className="icon-text">Resume</span>
             </a>
           </div>
