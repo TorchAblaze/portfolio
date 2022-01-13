@@ -105,6 +105,7 @@ h1 {
   top: 100%;
   left: 1.5rem;
   margin-left: -60px;
+  font-size: smaller;
 }
 
 .text-hover:hover .icon-text {
