@@ -484,6 +484,9 @@ section .rain div:nth-child(8) {
     padding: .5% 7%;
     margin: auto;
   }
+  .text-hover .icon-text {
+    margin-left: -40px;
+  } 
   .box-styles {
     margin: 3rem auto;
     overflow: auto;
