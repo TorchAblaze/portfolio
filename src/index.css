@@ -460,9 +460,6 @@ section .rain div:nth-child(8) {
 
 /* mobile */
 @media (max-width: 800px) {
-  #background {
-    background: no-repeat center;
-  }
   .heading {
     flex-direction: column;
     margin: 0;
