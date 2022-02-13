@@ -38,7 +38,7 @@ function Header(props) {
               <span className="icon-text">GitHub</span>
             </a>
             <a
-              href="https://drive.google.com/file/d/1miN8By2LUqPhSSLZ0a_bysQccHWJHGId/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UWxlPXXsXtICTwoAJsQyzwbxp_-iLs-B/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               aria-label="Resume"
