@@ -1,4 +1,0 @@
-Headings: change font weight? 
-Padding: Alter padding above/beneath headings? 
-Update background photos
-Add favicon image
