@@ -90,11 +90,13 @@ class App extends React.Component {
             <HourglassSplit width="20" height="20" color={classColor} />
           </button>
           <Animation season={season} />
-          <Header classColor={classColor} />
-          <Skills/>
-          <Projects/>
-          <About/>
-          <Footer/>
+          <div className="container">
+            <Header classColor={classColor} />
+            <Skills/>
+            <Projects/>
+            <About/>
+            <Footer/>
+          </div>
         </section>
       </div>
     );
