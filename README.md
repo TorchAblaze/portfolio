@@ -1,8 +1,6 @@
 # 🍁 _Tiffany's Portfolio_ 🍁
 
-#### My personal website, last updated on 01/12/22
-
-#### By _**Tiffany Greathead**_
+#### My personal website, last updated on 02/13/22
 
 ## ❄️ Description ❄️
 
