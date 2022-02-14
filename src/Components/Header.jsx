@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG from '../img/IMG.jpeg';
-import { Github, Linkedin, FileWord } from 'react-bootstrap-icons';
+import { Github, Linkedin, FilePdfFill } from 'react-bootstrap-icons';
 
 function Header(props) {
   return (
@@ -44,7 +44,7 @@ function Header(props) {
               aria-label="Resume"
               className={`${props.classColor} text-hover`}
             >
-              <FileWord width="36" height="36"/>
+              <FilePdfFill width="36" height="36"/>
               <span className="icon-text">Resume</span>
             </a>
           </div>
