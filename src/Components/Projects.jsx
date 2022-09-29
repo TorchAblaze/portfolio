@@ -33,56 +33,33 @@ function Projects() {
         </li>
         <li>
           <a
-            href="https://github.com/TorchAblaze/take-a-hike"
+            href="https://github.com/TorchAblaze/gift-app"
             target="_blank"
             rel="noreferrer"
-            >TAKE A HIKE:
-          </a>
-          {" "}A single page web application that uses three different API calls to
-          list National Parks in each state, providing information for each
-          park and their current weather conditions. Co-authored by{" "}
-          <a
-            href="https://github.com/marneymallory"
+            >Gift WrAPP:
+          </a> {" "}
+          A place to store and organize all your best gift ideas for your loved ones. 
+          This is my first Ruby/Rails project inspired by my love for giving 
+          meaningful gifts. Front-end designs created using{" "}
+          <a 
+            href="https://miro.com/app/board/uXjVOimIejU=/?share_link_id=659258480957"
             target="_blank"
             rel="noreferrer"
-            >Marney Mallory
+            >Miro
           </a>
-          ,{" "}
-          <a
-            href="https://github.com/JesseDWhite"
-            target="_blank"
-            rel="noreferrer"
-            >Jesse White
-          </a>
-          ,{" "}
-          <a
-            href="https://github.com/isaacrmoreno"
-            target="_blank"
-            rel="noreferrer"
-            >Isaac Moreno
-          </a>
-          {" "}and{" "}
-          <a
-            href="https://github.com/Magofna68"
-            target="_blank"
-            rel="noreferrer"
-            >Brandon Magofna
-          </a>
-          . Built with:
+          {" "}and a mobile first approach tested my creativity and is helping me bring this 
+          project to fruition.This is my most current project and is still a work in 
+          progress. Built with:
           <ul className="lists">
             <div>
-              <li>CSS</li>
+              <li>Ruby/Rails</li>
+              <li>SCSS</li>
               <li>HTML</li>
               <li>Bootstrap</li>
             </div>
-            <div>
-              <li>Node</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-            </div>
           </ul>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://github.com/TorchAblaze/Factory.Solution"
             target="_blank"
@@ -105,15 +82,24 @@ function Projects() {
               <li>Entity Framework Core</li>
             </div>
           </ul>
-        </li>
-        {/* <li>
+        </li> */}
+        <li>
           <a
             href="https://github.com/TorchAblaze/my-spacestagram"
             target="_blank"
             rel="noreferrer"
             >SPACESTAGRAM:
           </a>
-          {" "}A web application that uploads pictures using an API call to NASA's image library. Users can search keywords to view relevant photos and click on the "like" button to like their favorite photos. Built with:
+          {" "}A web application that uploads pictures using an API call to NASA's image library. 
+          Users can search keywords to view relevant photos and click the "like" button to like 
+          their favorite photos. See the{" "}
+          <a
+            href="https://torchablaze.github.io/my-spacestagram/"
+            target="_blank"
+            rel="noreferrer"
+            >live website. 
+          </a>
+          {" "}Built with:
           <ul className="lists">
             <div>
               <li>Node</li>
@@ -125,7 +111,7 @@ function Projects() {
               <li>HTML</li>
             </div>
           </ul>
-        </li> */}
+        </li>
       </ol>
     </div>
   )
