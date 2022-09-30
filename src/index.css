@@ -463,7 +463,7 @@ section .rain div:nth-child(8) {
 }
 
 /* mobile */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .heading {
     flex-direction: column;
     margin: 0;
