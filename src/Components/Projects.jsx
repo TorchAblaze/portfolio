@@ -40,14 +40,14 @@ function Projects() {
           </a> {" "}
           A place to store and organize all your best gift ideas for your loved ones. 
           This is my first Ruby/Rails project inspired by my love for giving 
-          meaningful gifts. Front-end designs created using{" "}
+          meaningful gifts. Mobile first front-end designs created with{" "}
           <a 
             href="https://miro.com/app/board/uXjVOimIejU=/?share_link_id=659258480957"
             target="_blank"
             rel="noreferrer"
             >Miro
           </a>
-          {" "}and a mobile first approach tested my creativity and is helping me bring this 
+          {" "}tested my creativity and is helping me bring this 
           project to fruition.This is my most current project and is still a work in 
           progress. Built with:
           <ul className="lists">
@@ -97,9 +97,9 @@ function Projects() {
             href="https://torchablaze.github.io/my-spacestagram/"
             target="_blank"
             rel="noreferrer"
-            >live website. 
+            >live website 
           </a>
-          {" "}Built with:
+          . Built with:
           <ul className="lists">
             <div>
               <li>Node</li>
