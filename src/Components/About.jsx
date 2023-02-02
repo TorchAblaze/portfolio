@@ -26,7 +26,7 @@ function About() {
         <div>
           <h3>Interests</h3>
           <p>
-            Outside of programming, I enjoy gaming and watching movies. Some of my favorite games are Horizon Zero Dawn, Astroneer, Pokémon Shield and most Legend of Zelda games. I love traveling and exploring new places, hiking, puns (they are intended) and coffee shops.
+            I enjoy gaming and watching movies. Some of my favorite games are Horizon Zero Dawn, Astroneer, Pokémon Shield and most Legend of Zelda games. I love traveling and exploring new places, hiking, puns (they are intended) and coffee shops. Recently, I've been dedicating most of my time to strengthening my programming skills, but lucky for me, I really like coding, too!
           </p>
         </div>
       </div>
