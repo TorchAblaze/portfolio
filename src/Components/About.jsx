@@ -8,7 +8,7 @@ function About() {
         <div>
           <h3>Experience</h3>
           <p>
-            I'm a junior QA engineer at{" "}
+            I'm a QA developer at{" "}
             <a href="https://rockpapercoin.com/" target="_blank" rel="noreferrer"
               >Rock Paper Coin
             </a>
@@ -20,20 +20,13 @@ function About() {
             <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"
               >Epicodus' 
             </a>
-            {" "}full-time full-stack, 27-week program where I strengthened my JavaScript skills and learned C# and React. I attended Norwich University and have a
-            bachelor's degree in Psychology. Before applying to Epicodus, I worked
-            four years as a federal agent.
+            {" "}full-time full-stack, 27-week program where I strengthened my JavaScript skills and learned C# and React. I attended Norwich University and have a bachelor's degree in Psychology. Before applying to Epicodus, I worked four years as a federal agent.
           </p>
         </div>
         <div>
           <h3>Interests</h3>
           <p>
-            I enjoy gaming and watching movies. Some of my favorite games are
-            Horizon Zero Dawn, Astroneer, Pokémon Shield and most Legend of Zelda
-            games. I love traveling/exploring new places, hiking, puns (they are
-            intended) and coffee shops. Recently, I've been dedicating most of my
-            time to strengthening my programming skills, but lucky for me, I
-            really like coding, too!
+            Outside of programming, I enjoy gaming and watching movies. Some of my favorite games are Horizon Zero Dawn, Astroneer, Pokémon Shield and most Legend of Zelda games. I love traveling and exploring new places, hiking, puns (they are intended) and coffee shops.
           </p>
         </div>
       </div>
