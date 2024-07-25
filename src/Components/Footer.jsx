@@ -12,7 +12,7 @@ function Footer() {
         {" "}for this webpage.
       </p> 
       <p>
-        All photos &copy; 2020-2023 Tiffany Greathead
+        All photos &copy; 2020-2024 Tiffany Greathead
       </p>
     </footer>
   )
